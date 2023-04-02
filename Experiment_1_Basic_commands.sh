@@ -18,7 +18,7 @@ command 4 :
 -> date +"day:%A, month:%B"
 
 command 5 :
-# AIM : Write the command to activate scientific math functions in the command line
+# AIM : Write the command to activate scientific math functions in the command line.
 calculator.
 -> bc -l
 
@@ -31,7 +31,7 @@ command 7 :
 -> echo “sqrt(number)” | bc -l
 
 command 8 :
-# AIM : Write the command to convert decimal number into its equivalent hexadecimal
+# AIM : Write the command to convert decimal number into its equivalent hexadecimal.
 number.
 -> echo “obase=16; ibase=10; number” | bc -l
 
