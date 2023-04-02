@@ -42,11 +42,11 @@ command 9 :
 command 10 :
 # AIM : Write the command to find the total no of digits of a number entered.
 -> variable=‘numbers’
-echo “${#variable}”
+   echo “${#variable}”
 
 command 11 :
 # AIM : Write the command to find cosine 30, 45, 90 in radians.
 -> echo “c(30)” | bc -l,
-echo “c(45)” | bc -l,
-echo “c(90)” | bc -l
+   echo “c(45)” | bc -l,
+   echo “c(90)” | bc -l
 
