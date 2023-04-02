@@ -24,20 +24,19 @@ calculator.
 
 command 6 :
 # AIM : Write the command to get the output of the expression ((62.864 + 99.16) * 55.9).
--> echo $(((62.864 + 99.16)* 55.9)) | bc -l
+-> echo $(((62.864 + 99.16)* 55.9)) | bc 
 
 command 7 :
 # AIM : Write the command to find the square root of any positive number.
 -> echo “sqrt(number)” | bc -l
 
 command 8 :
-# AIM : Write the command to convert decimal number into its equivalent hexadecimal.
-number.
--> echo “obase=16; ibase=10; number” | bc -l
+# AIM : Write the command to convert decimal number into its equivalent hexadecimal number.
+-> echo “obase=16; ibase=10; number” | bc 
 
 command 9 :
 # AIM : Write the command to convert binary number into its equivalent decimal number.
--> echo “obase=10; ibase=2; number” | bc -l
+-> echo “obase=10; ibase=2; number” | bc 
 
 command 10 :
 # AIM : Write the command to find the total no of digits of a number entered.
