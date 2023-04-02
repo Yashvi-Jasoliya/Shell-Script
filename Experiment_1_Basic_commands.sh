@@ -24,7 +24,7 @@ calculator.
 
 command 6 :
 # AIM : Write the command to get the output of the expression ((62.864 + 99.16) * 55.9).
--> echo $(((62.864 + 99.16)* 55.9)) | bc 
+-> echo $(((62.864 + 99.16)* 55.9)) | bc -l 
 
 command 7 :
 # AIM : Write the command to find the square root of any positive number.
