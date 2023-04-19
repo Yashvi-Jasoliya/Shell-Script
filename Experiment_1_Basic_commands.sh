@@ -18,8 +18,7 @@ command 4 :
 -> date +"day:%A, month:%B"
 
 command 5 :
-# AIM : Write the command to activate scientific math functions in the command line.
-calculator.
+# AIM : Write the command to activate scientific math functions in the command line calculator.
 -> bc -l
 
 command 6 :
