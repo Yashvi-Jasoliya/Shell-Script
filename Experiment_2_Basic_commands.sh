@@ -1,8 +1,9 @@
+
 Practical :- 2
 
 Command 12  :
-# AIM : Write a command to display a message hello I am learning operating system on the terminal.
 
+# AIM : Write a command to display a message hello I am learning operating system on the terminal.
 ->  echo hello I am learning operating system on the terminal
 
 Command 13  :
