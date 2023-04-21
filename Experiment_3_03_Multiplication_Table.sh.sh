@@ -2,7 +2,7 @@
 
 #Taking input from user 
 
-echo "Enter the number"
+echo "Enter the number :-"
 read x
 
 # printing table using loop
