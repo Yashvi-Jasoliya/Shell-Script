@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Taking input from user
