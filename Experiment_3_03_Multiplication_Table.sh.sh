@@ -5,7 +5,7 @@
 echo "Enter the number"
 read x
 
-# printing mtable using loop
+# printing table using loop
 
 echo "--> Multiplication Table of $x is :-"
 
