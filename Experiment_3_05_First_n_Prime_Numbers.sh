@@ -7,7 +7,6 @@ read b
 y=2;
 echo "Prime numbers till $b are :- "
 
-
 while [ $y -le $b ]
 do
   i=2
