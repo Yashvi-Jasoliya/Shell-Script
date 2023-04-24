@@ -1,9 +1,11 @@
+#!/bin/bash
+
 echo "Enter the number"
 read n
+
 a=0 
 b=1
 i=2
-
 echo "Fibbonacci series upto $n is :- "
 echo "$a"
 echo "$b"
