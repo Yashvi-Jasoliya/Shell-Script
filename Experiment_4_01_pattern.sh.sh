@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Take output from user
 echo "Enter the levels of pyramid.."
 read n
 
@@ -11,4 +12,4 @@ do
 echo -n "* "
 done
 echo ""
-done
+
