@@ -7,6 +7,7 @@ echo "3. Fgrep"
 read n
 
 case $n in
+
 1) echo "Your Single Pettern search:- "
 read s
 grep "$s" students_name.txt
