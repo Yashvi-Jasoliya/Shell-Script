@@ -27,6 +27,6 @@ fi
 done
 done
 
-echo "Sorted Numbers in Decending order :- "
+echo "Sorted Numbers in Descending order :- "
 echo ${arr[*]}
 
