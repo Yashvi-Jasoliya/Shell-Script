@@ -17,7 +17,7 @@ do
      else
      echo -n  " "
      fi
-  done
+   done
 echo
 done
 
@@ -26,14 +26,14 @@ for((i=1; i<=n; i++))
 do
    for((j=n; j>=1; j--))
    do 
-   if [ $i -ge $j ]
+     if [ $i -ge $j ]
      then 
      echo -n "  "
      else
      echo -n  " *"
      fi
   done
-  echo
-  echo -n " "
+echo
+echo -n " "
 done
    
