@@ -2,15 +2,17 @@
 
 echo "Enter the levels of pyramid.."
 read n
+
 # rows
 echo "Pyramid of $n level :- "
-for((i=n; i>=1; i--))
-do
-for((j=1; j<=i; j++))
-do
+
+   for((i=n; i>=1; i--))
+   do
+     for((j=1; j<=i; j++))
+     do
 # printing number
-echo -n "$i "
-done
+     echo -n "$i "
+     done
 echo ""
 done
 
