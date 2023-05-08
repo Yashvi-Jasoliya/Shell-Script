@@ -11,7 +11,7 @@ do
    do
      if [ $j -ge $i ]
      then 
-     echo -n "* "
+     echo -n "*"
      else
      echo -n  " "
      fi
